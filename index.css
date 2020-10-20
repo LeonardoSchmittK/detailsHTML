@@ -16,7 +16,7 @@ body {
   height: 95vh;
   place-content: center;
   position: relative;
-  background-color: rgba(0, 0, 0, 0.924);
+  background-color: #000000ec;
 }
 
 .container {
@@ -58,12 +58,8 @@ body {
   animation: popUp 0.5s;
 }
 
-.planetConfig[open] {
+.planetConfig[open], .planetConfig:hover{
   background-color: #bbbaba21;
-}
-
-.planetConfig:hover {
-  background: #bbbaba21;
 }
 
 .planetTitle {
@@ -94,11 +90,11 @@ hr {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(204, 198, 198);
+  background-color: #ccc6c6;
 }
 
 ::-webkit-scrollbar {
-  background-color: rgb(233, 222, 222);
+  background-color: #e9dede;
   border-radius: 50px;
 }
 
@@ -120,6 +116,7 @@ hr {
    margin-bottom:-0px;
    padding: 10px;
   }
+  
   .planetConfig {
     outline: none;
     border: none;

@@ -17,19 +17,18 @@ function addDetails() {
     let details = window.document.createElement("details");
     let summary = window.document.createElement("summary");
     let description = window.document.createElement("p");
+    
     description.innerHTML = txt;
     summary.innerHTML = planets[i];
     details.className = "planetConfig ";
     summary.className = "planetTitle";
     description.className = "planetDescription";
+
     details.appendChild(description);
     details.appendChild(summary);
     container.appendChild(details);
     ++i;
-  }
-}
+  };
+};
 
 addDetails();
-
-
-console.clear()
