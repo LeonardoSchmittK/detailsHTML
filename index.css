@@ -114,8 +114,13 @@ hr {
   .container {
     width: 80%;
   }
+
+  .title {
+   font-size: 1.5em;
+   margin-bottom:-0px;
+   padding: 10px;
+  }
   .planetConfig {
-    margin: 0;
     outline: none;
     border: none;
     cursor: pointer;
